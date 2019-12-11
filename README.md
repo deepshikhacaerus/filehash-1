@@ -101,6 +101,6 @@ In addition to submitting the URL for your GitHub repository, you will need to s
 
 A valid submission will look something like (this is just an example!)
 
-`https://github.com/rdpeng/RepData_PeerAssessment1
+`https://github.com/rdpeng/RepData_PeerAssessment1`
 
-07d9e9061daf9d69846ec2574ff0161f034d75d7`
+`07d9e9061daf9d69846ec2574ff0161f034d75d7`

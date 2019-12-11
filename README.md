@@ -17,7 +17,7 @@ The variables included in this dataset are:
 
 The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
 
-Assignment
+## Assignment
 
 This assignment will be described in multiple parts. You will need to write a report that answers the questions detailed below. Ultimately, you will need to complete the entire assignment in a single R markdown document that can be processed by knitr and be transformed into an HTML file.
 
@@ -29,7 +29,7 @@ Fork/clone the GitHub repository created for this assignment. You will submit th
 
 NOTE: The GitHub repository also contains the dataset for the assignment so you do not have to download the data separately.
 
-Loading and preprocessing the data
+### Loading and preprocessing the data
 
 Show any code that is needed to 
 
@@ -37,7 +37,7 @@ Show any code that is needed to
 
  2. Process/transform the data (if necessary) into a format suitable for your analysis
 
-What is mean total number of steps taken per day?
+### What is mean total number of steps taken per day?
 
 For this part of the assignment, you can ignore the missing values in the dataset.
 
@@ -45,13 +45,13 @@ For this part of the assignment, you can ignore the missing values in the datase
 
  2. Calculate and report the mean and median total number of steps taken per day
 
-What is the average daily activity pattern?
+### What is the average daily activity pattern?
 
  1. Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across       all days (y-axis)
 
  2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
-Imputing missing values
+### Imputing missing values
 
 Note that there are a number of days/intervals where there are missing values (coded as NA). The presence of missing days may introduce bias into some calculations or summaries of the data.
 
@@ -63,7 +63,7 @@ Note that there are a number of days/intervals where there are missing values (c
 
  4. Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps         taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing           missing data on the estimates of the total daily number of steps?
 
-Are there differences in activity patterns between weekdays and weekends?
+### Are there differences in activity patterns between weekdays and weekends?
 
 For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.
 
@@ -77,29 +77,30 @@ For this part the weekdays() function may be of some help here. Use the dataset 
 
 Your plot will look different from the one above because you will be using the activity monitor data. Note that the above plot was made using the lattice system but you can make the same version of the plot using any plotting system you choose.
 
-Submitting the Assignment
+## Submitting the Assignment
+
 To submit the assignment:
 
-Commit the your completed PA1_template.Rmd file to the master branch of your git repository (you should already be on the master branch unless you created new ones)
+ 1. Commit the your completed PA1_template.Rmd file to the master branch of your git repository (you should already be on the master         branch unless you created new ones)
 
-Commit your PA1_template.md and PA1_template.html files produced by processing your R markdown file with knit2html() function in R (from the knitr package)
+ 2. Commit your PA1_template.md and PA1_template.html files produced by processing your R markdown file with knit2html() function in R       (from the knitr package)
 
-If your document has figures included (it should) then they should have been placed in the figures/ directory by default (unless you overrided the default). Add and commit the figures/ directory to yoru git repository.
+ 3. If your document has figures included (it should) then they should have been placed in the figures/ directory by default (unless you     overrided the default). Add and commit the figures/ directory to yoru git repository.
 
-Push your master branch to GitHub.
+ 4. Push your master branch to GitHub.
 
-Submit the URL to your GitHub repository for this assignment on the course web site.
+ 5. Submit the URL to your GitHub repository for this assignment on the course web site.
 
 In addition to submitting the URL for your GitHub repository, you will need to submit the 40 character SHA-1 hash (as string of numbers from 0-9 and letters from a-f) that identifies the repository commit that contains the version of the files you want to submit. You can do this in GitHub by doing the following
 
-Going to your GitHub repository web page for this assignment
+ 1. Going to your GitHub repository web page for this assignment
 
-Click on the "?? commits" link where ?? is the number of commits you have in the repository. For example, if you made a total of 10 commits to this repository, the link should say "10 commits".
+ 2. Click on the "?? commits" link where ?? is the number of commits you have in the repository. For example, if you made a total of 10     commits to this repository, the link should say "10 commits".
 
-You will see a list of commits that you have made to this repository. The most recent commit is at the very top. If this represents the version of the files you want to submit, then just click the "copy to clipboard" button on the right hand side that should appear when you hover over the SHA-1 hash. Paste this SHA-1 hash into the course web site when you submit your assignment. If you don't want to use the most recent commit, then go down and find the commit you want and copy the SHA-1 hash.
+ 3. You will see a list of commits that you have made to this repository. The most recent commit is at the very top. If this represents     the version of the files you want to submit, then just click the "copy to clipboard" button on the right hand side that should           appear when you hover over the SHA-1 hash. Paste this SHA-1 hash into the course web site when you submit your assignment. If you       don't want to use the most recent commit, then go down and find the commit you want and copy the SHA-1 hash.
 
 A valid submission will look something like (this is just an example!)
 
 https://github.com/rdpeng/RepData_PeerAssessment1
 
-7c376cc5447f11537f8740af8e07d6facc3d9645
+07d9e9061daf9d69846ec2574ff0161f034d75d7
